@@ -1,0 +1,53 @@
+# MinecraftBots Configuration
+
+# Settings for bot behavior
+bot-settings:
+  # Frequency of random actions to prevent AFK detection (in seconds)
+  action-interval: 10
+  # Chance that a bot will perform an action at each interval (0.0-1.0)
+  action-chance: 0.7
+  # Maximum walk time in seconds
+  max-walk-time: 10
+  # Minimum walk time in seconds
+  min-walk-time: 2
+  # Maximum number of bots that can be spawned at once
+  max-bots: 50
+
+# Bot appearance settings
+appearance:
+  # Whether bots should have armor
+  use-armor: true
+  # Armor types (LEATHER, IRON, GOLD, DIAMOND, NETHERITE)
+  armor-types:
+    - IRON
+    - DIAMOND
+  # Items bots can hold in their main hand
+  possible-items:
+    - DIAMOND_SWORD
+    - IRON_PICKAXE
+    - STONE_AXE
+    - BREAD
+    - DIRT
+    - STONE
+    - OAK_LOG
+    - OAK_PLANKS
+    - COBBLESTONE
+
+# Bot names that will be chosen randomly
+bot-names:
+  - Alex45
+  - Steve63
+  - Emma87
+  - Sarah91
+  - Mike52
+  - John25
+  - Lisa33
+  - David77
+  - Anna62
+  - James24
+  - Peter99
+  - Sophie31
+  - Tom42
+  - Jessica84
+  - Ryan76
+# Add more names as needed
