@@ -1,0 +1,15 @@
+name: MinecraftBots
+version: 1.0.0
+main: com.minecraft.bots.MinecraftBots
+api-version: '1.21'
+description: A plugin that creates non-AFK bots that walk around
+author: ReplicationAI
+commands:
+  spawnbots:
+    description: Spawns multiple bots around your location
+    usage: /spawnbots <number>
+    permission: minecraftbots.spawn
+  killbots:
+    description: Kills all bots
+    usage: /killbots
+    permission: minecraftbots.kill
